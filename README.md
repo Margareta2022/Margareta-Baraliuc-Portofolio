@@ -1,5 +1,8 @@
 # Margareta Baraliuc — Portfolio & Automation Projects
 
+🌐 Live Resume: https://margareta2022.github.io/Margareta-Baraliuc-Portofolio/
+
+
 Senior Software Engineer with 6+ years of experience building and maintaining scalable test automation frameworks and CI-ready quality solutions.  
 This repository is my **professional portfolio**, showcasing **Playwright + TypeScript** automation, project structure, and real-world testing patterns.
 
