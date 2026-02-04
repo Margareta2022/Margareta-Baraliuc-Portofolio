@@ -1,7 +1,7 @@
 # Margareta Baraliuc — Portfolio & Automation Projects
 
 🌐 Live Resume: [View my resume](https://margareta2022.github.io/Margareta-Baraliuc-Portofolio/)
-Hold the Cmd (mac) and click the link
+Hold the Cmd (mac) and click the link ; 
 Hold "CTRL" (Window) and click the link
 
 
