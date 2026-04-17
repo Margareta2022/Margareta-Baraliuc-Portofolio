@@ -1,6 +1,6 @@
 # 🚀 Margareta Baraliuc — Automation Portfolio (Playwright + TypeScript)
 
-[![Playwright Tests](https://github.com/margareta2022/Margareta-Baraliuc-Portfolio/actions/workflows/playwright.yml/badge.svg)](https://github.com/margareta2022/Margareta-Baraliuc-Portfolio/actions)
+[![Playwright Tests](https://github.com/Margareta2022/Margareta-Baraliuc-Portfolio/actions/workflows/playwright.yml/badge.svg)](https://github.com/Margareta2022/Margareta-Baraliuc-Portfolio/actions)
 
 🔗 Live Resume: [View my live resume](https://margareta2022.github.io/Margareta-Baraliuc-Portfolio/)
 
