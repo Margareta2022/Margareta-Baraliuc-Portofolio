@@ -11,15 +11,49 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles.css" />
 </head>
-
 <body>
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+        }
+      });
+    }, { threshold: 0.15 });
+  
+    document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
+  </script>
+  <nav>
+  <a href="#summary">Summary</a>
+  <a href="#experience">Experience</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+</nav>
+<section class="metrics fade-in">
+  <div class="metric-card">
+    <span class="metric-number">400+</span>
+    <span class="metric-label">Automated Tests</span>
+  </div>
+
+  <div class="metric-card">
+    <span class="metric-number">85%</span>
+    <span class="metric-label">Faster Regression</span>
+  </div>
+  <div class="metric-card">
+    <span class="metric-number">CI/CD</span>
+    <span class="metric-label">GitHub Actions Enabled</span>
+  </div>
+</section>
   <main class="page">
-    <header class="header">
+    <header class="header fade-in"></header>
       <div class="header__left">
         <h1 class="name">Margareta Baraliuc</h1>
-        <p class="title">Senior Software Engineer</p>
+        <p class="title typing-text">Senior SDET | Playwright | CI/CD | Automation Engineer</p>
+        <a href="./Margareta-Baraliuc-Resume.pdf" target="_blank" class="btn">
+          📄 View Resume
+        </a>
       </div>
-
+    </header>
       <div class="header__right">
         <ul class="contact">
           <li><span class="label">Phone</span> <a href="tel:+14154716427">(415) 471-6427</a></li>
@@ -35,7 +69,7 @@
     </header>
 
     <section class="section">
-      <h2>Summary</h2>
+      <h2 id="summary">Summary</h2>
       <p class="summary">
         Senior Software Engineer with 6+ years of experience across education and healthcare.
         Focused on QA automation, CI/CD optimization, and scalable test architecture.
@@ -43,27 +77,28 @@
       </p>
     </section>
 
-    <section class="section">
-      <h2>Core Skills</h2>
-      <div class="chips">
-        <span class="chip">Playwright</span>
-        <span class="chip">TypeScript</span>
-        <span class="chip">JavaScript</span>
-        <span class="chip">Selenium</span>
-        <span class="chip">API Testing</span>
-        <span class="chip">CI/CD</span>
-        <span class="chip">GitHub Actions</span>
-        <span class="chip">Azure DevOps</span>
-        <span class="chip">Jira / Confluence</span>
-        <span class="chip">Postman</span>
-        <span class="chip">AWS</span>
-        <span class="chip">SQL</span>
+    <section class="section fade-in">
+      <h2 id="projects">Projects</h2>
+      <div class="cards">
+        <a class="card" href="https://github.com/Margareta2022/Margareta-Baraliuc-Portfolio" target="_blank">
+          <h3>🚀 GitHub Portfolio</h3>
+          <p>Playwright + TypeScript automation examples with CI/CD integration and reporting.</p>
+        </a>
+    
+        <a class="card" href="https://margareta2022.github.io/Margareta-Baraliuc-Portfolio/" target="_blank">
+          <h3>🌐 Live Resume</h3>
+          <p>Interactive online resume showcasing experience, skills, and portfolio highlights.</p>
+        </a>
+    
+        <div class="card">
+          <h3>⚙️ Automation Framework</h3>
+          <p>Page Object Model structure, UI and API test coverage, traces, screenshots, and reports.</p>
+        </div>
       </div>
     </section>
 
     <section class="section">
-      <h2>Experience</h2>
-
+      <h2 id="experience">Experience</h2>
       <article class="role">
         <div class="role__top">
           <div>
